@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600');
+
+body {
+    font-family: 'Dosis';
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+section,.form{
+    background: #fafafa;
+}
+.form{
+    height:0;
+    opacity:0;
+    transition: all 0.6s ease-in;
+}
+.form:target{
+    height:initial;
+    opacity:1;
+}
+section{
+    border : 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+section > h2 {
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+section > a {
+    color : white;
+    border : 1px solid rgb(18, 95, 167);
+    background-color: rgb(18, 95, 167);
+    padding: 10px;
+    text-decoration: none;
+}
+
+div {
+    border : 1px solid grey;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+div > p {
+    display: none;
+}
+input{
+    display:block;
+    width: 100%;
+    border:solid 1px transparent;
+    border-bottom-color: #ccc;
+    padding: 5px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+input[type="submit"] {
+    color : white;
+    border : 1px solid rgb(18, 95, 167);
+    background-color: rgb(18, 95, 167);
+    padding: 10px;
+    
+}
